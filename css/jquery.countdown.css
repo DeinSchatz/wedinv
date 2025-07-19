@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+
+
+ul#hitungmundur {
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	font-family: "Bad Script", cursive;
+	font-family: 'Round Script', arial;
+}
+ul#hitungmundur li {
+	display: inline-block;
+}
+ul#hitungmundur li span {
+	font-size: 100px;
+	font-weight: 500;
+	font-family: "Bad Script", cursive;
+	line-height: 30px;
+	
+}
+ul#hitungmundur li.separator {
+	font-size: 30px;
+	line-height: 40px;
+	font-family: "Bad Script", cursive;
+	vertical-align: top;
+}
+ul#hitungmundur li p {
+	color: #fff;
+	font-size: 25px;
+	padding-top: 40px;
+	font-family: "Bad Script", cursive;
+}

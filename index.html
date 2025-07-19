@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Свадьба Александра & Артём</title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/parrot.gif" />
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/parrot.gif" alt="Party Parrot Gif" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Время
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Место
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-sherly-daeng">
+                  Саша & Артём
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  Подтвердить присутствие
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Приглашение на свадьбу</h1>
+            <h2 class="title">Александра & Артём</h2>
+            <h4 class="subtitle tempatwaktu">
+              
+                Суббота, 30 августа 2025 
+                </br>
+				</br>
+                <b>Дворец бракосочетания </b> - Иркутск, ул. Декабрьских Событий, 106
+                </br>
+                <b>Ресторан "У Истока"</b> - Иркутск, ул. ​Ржанова, 43​
+              
+            </h4>
+          </div>
+
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Дни</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Часы</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Минуты</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Секунды</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 00:00:00';
+              var weddate = '08/30/2025 11:00:00';
+
+              $('#hitungmundur').countdown({
+                date: weddate, // TODO Date format: 07/27/2017 17:00:00
+                offset: +8, // TODO Your Timezone Offset
+                               
+              }, function () {
+                
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+
+
+
+
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">♥</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Время</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Место</a>
+                  </li>
+                  <li>
+                    <a href="#tentang-sherly-daeng">Саша & Артём</a>
+                  </li>
+
+                  <li>
+                    <a href="#rsvp">Подтвердить присутствие</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+
+      
+      <!-- Begin regular-section-->
+      <div class="section-light regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        <p class="bodytext" data-aos="fade-in" data-aos-easing="linear">
+          С огромной радостью приглашаем вас стать частью нашего особенного дня — когда мы скажем друг другу "Да" 💍.
+          <br />
+          Ждём вас, чтобы вместе отпраздновать этот важный момент!
+        </p>
+        
+        </div>
+       
+      <!-- End regular-section-->    
+            <!-- Begin Waktu Section -->
+            <div class="section-dark" id="Waktu">
+              <div class="container">
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title">Время</h1>
+                </div>
+                <div class="columns is-multiline">
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-left">
+                    
+                    <h1 class="waktu is-larger has-text-centered">
+                      <strong>30 августа 2025</strong>
+					  <br>
+					  <b>Суббота</b>
+                    </h1>
+                    
+                    
+                  </div>
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-in" data-aos-easing="linear"
+                  >
+                  
+                    <p class="waktu is-larger has-text-centered">
+                      Церемония:
+                      <br>
+                      <strong>11:00</strong>
+                    </p>
+                  
+                  </div>
+
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-left">
+                    
+                    <h1 class="waktu is-larger has-text-centered">
+                      Банкет:
+                      <br>
+                      <strong>14:00</strong>
+                    </h1>
+                    
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+      <!-- End Waktu Content -->
+
+            <!-- Begin Lokasi Section -->
+            <div class="section-light" id="lokasi" data-aos="fade-in" data-aos-easing="linear" >
+              <div class="container">
+                <div class="column is-12 regular-section">
+                  
+                  <p class="tempat is-larger has-text-centered">
+                    <strong>Церемония бракосочетания</strong>
+                    <br>
+                    Дворец бракосочетания 
+                    <br>
+                    Иркутск, ул. Декабрьских Событий, 106
+                    <br>
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2440.935083743773!2d104.3141173!3d52.2808805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da83b6b03e46f59%3A0x5e1a2bd80ab86916!2z0KbQtdC90YLRgNCw0LvRjNC90YvQuSDQvtGC0LTQtdC7INC_0L4g0LMu0JjRgNC60YPRgtGB0LrRgyDRg9C_0YDQsNCy0LvQtdC90LjRjyDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdC-0Lkg0YDQtdCz0LjRgdGC0YDQsNGG0LjQuCDRgdC70YPQttCx0Ysg0JfQkNCT0KEg0JjRgNC60YPRgtGB0LrQvtC5INC-0LHQu9Cw0YHRgtC4!5e0!3m2!1sru!2sru!4v1752903116373!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a target="_blank" href="https://maps.app.goo.gl/7DQSvGPvzBDJXn5UA" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Открыть карту
+                  </a>
+				  <br>
+				  <br>
+				  <p class="tempat is-larger has-text-centered">
+                    <strong>Банкет</strong>
+                    <br>
+                    Ресторан "У Истока" 
+                    <br>
+                    Иркутск, ул. ​Ржанова, 43​
+                    <br>
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.471474053122!2d104.36062997723371!3d52.25298297199238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da83c0a44f62c23%3A0x163f53e5be153a43!2z0KMg0LjRgdGC0L7QutCw!5e0!3m2!1sru!2sru!4v1752903618174!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a target="_blank" href="https://maps.app.goo.gl/FjQwZJDVMKA5CEHz6" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Открыть карту
+                  </a>
+				  <br>
+				  <br>
+                </div>
+              </div>
+            </div>
+      <!-- End Lokasi Content -->
+
+
+      
+
+      <!-- Begin Foto -->
+      <div class="section-dark foto-foto" id="foto">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Саша & Тёма</h1>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="foto1"
+                  
+                ></figure>
+				
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto2"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto3"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="foto4"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto5"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto6"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto7"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                   class="foto8"
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+
+          
+
+
+
+      <!-- Begin RSVP Content -->
+      <div class="section-dark contact" id="rsvp">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title">Подтвердить присутствие</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered">
+                
+                   <form action="https://formspree.io/f/xeozobqz" method="POST">
+					<label for="name">Ваше имя: </label>
+					<input style="border:2px solid #748567; border-radius:5px; padding-top: 8px" type="text" id="name" name="name" required /><br>
+					
+					<label for="email">Email: </label>
+					<input style="border:2px solid #748567; border-radius:5px; padding-top: 8px" type="email" id="email" name="_replyto" required /><br>
+					
+					<label for="guests">Количество гостей: </label>
+					<select style="border:2px solid #748567; border-radius:5px; padding-top: 8px" id="guests" name="guests" required>
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="4">5</option>
+					  <option value="4">6</option>
+					</select>
+					
+					
+			</div>
+		
+ 
+         </div>
+        </div>
+      </div>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
